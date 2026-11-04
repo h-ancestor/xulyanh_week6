@@ -1,0 +1,4 @@
+﻿file,actual_label,predicted_label,correct,selected_feature,selected_model
+dataset_shapes_unseen\circle\circle_001.png,circle,circle,True,geometry,KNN
+dataset_shapes_unseen\square\square_001.png,square,square,True,geometry,KNN
+dataset_shapes_unseen\triangle\triangle_001.png,triangle,triangle,True,geometry,KNN

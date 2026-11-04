@@ -1,0 +1,596 @@
+[
+  {
+    "experiment": "Hình học / KNN",
+    "feature": "geometry",
+    "model": "KNN",
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        12
+      ]
+    ],
+    "class_names": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "per_class": {
+      "circle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "square": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "triangle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 36.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 36.0
+      }
+    },
+    "train_size": 144,
+    "test_size": 36
+  },
+  {
+    "experiment": "Hình học / SVM",
+    "feature": "geometry",
+    "model": "SVM",
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        12
+      ]
+    ],
+    "class_names": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "per_class": {
+      "circle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "square": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "triangle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 36.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 36.0
+      }
+    },
+    "train_size": 144,
+    "test_size": 36
+  },
+  {
+    "experiment": "Hình học / Random Forest",
+    "feature": "geometry",
+    "model": "Random Forest",
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        12
+      ]
+    ],
+    "class_names": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "per_class": {
+      "circle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "square": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "triangle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 36.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 36.0
+      }
+    },
+    "train_size": 144,
+    "test_size": 36
+  },
+  {
+    "experiment": "HOG / KNN",
+    "feature": "hog",
+    "model": "KNN",
+    "accuracy": 0.6944444444444444,
+    "precision_macro": 0.7738095238095237,
+    "recall_macro": 0.6944444444444445,
+    "f1_macro": 0.6880382775119617,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        6,
+        6,
+        0
+      ],
+      [
+        3,
+        2,
+        7
+      ]
+    ],
+    "class_names": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "per_class": {
+      "circle": {
+        "precision": 0.5714285714285714,
+        "recall": 1.0,
+        "f1-score": 0.7272727272727273,
+        "support": 12.0
+      },
+      "square": {
+        "precision": 0.75,
+        "recall": 0.5,
+        "f1-score": 0.6,
+        "support": 12.0
+      },
+      "triangle": {
+        "precision": 1.0,
+        "recall": 0.5833333333333334,
+        "f1-score": 0.7368421052631579,
+        "support": 12.0
+      },
+      "accuracy": 0.6944444444444444,
+      "macro avg": {
+        "precision": 0.7738095238095237,
+        "recall": 0.6944444444444445,
+        "f1-score": 0.6880382775119617,
+        "support": 36.0
+      },
+      "weighted avg": {
+        "precision": 0.7738095238095238,
+        "recall": 0.6944444444444444,
+        "f1-score": 0.6880382775119617,
+        "support": 36.0
+      }
+    },
+    "train_size": 144,
+    "test_size": 36
+  },
+  {
+    "experiment": "HOG / SVM",
+    "feature": "hog",
+    "model": "SVM",
+    "accuracy": 0.9166666666666666,
+    "precision_macro": 0.9333333333333332,
+    "recall_macro": 0.9166666666666666,
+    "f1_macro": 0.9153439153439153,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        3,
+        9,
+        0
+      ],
+      [
+        0,
+        0,
+        12
+      ]
+    ],
+    "class_names": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "per_class": {
+      "circle": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 12.0
+      },
+      "square": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 12.0
+      },
+      "triangle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "accuracy": 0.9166666666666666,
+      "macro avg": {
+        "precision": 0.9333333333333332,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9153439153439153,
+        "support": 36.0
+      },
+      "weighted avg": {
+        "precision": 0.9333333333333333,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9153439153439152,
+        "support": 36.0
+      }
+    },
+    "train_size": 144,
+    "test_size": 36
+  },
+  {
+    "experiment": "HOG / Random Forest",
+    "feature": "hog",
+    "model": "Random Forest",
+    "accuracy": 0.9444444444444444,
+    "precision_macro": 0.9523809523809524,
+    "recall_macro": 0.9444444444444445,
+    "f1_macro": 0.9440559440559441,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        2,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        12
+      ]
+    ],
+    "class_names": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "per_class": {
+      "circle": {
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1-score": 0.9230769230769231,
+        "support": 12.0
+      },
+      "square": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 12.0
+      },
+      "triangle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "accuracy": 0.9444444444444444,
+      "macro avg": {
+        "precision": 0.9523809523809524,
+        "recall": 0.9444444444444445,
+        "f1-score": 0.9440559440559441,
+        "support": 36.0
+      },
+      "weighted avg": {
+        "precision": 0.9523809523809523,
+        "recall": 0.9444444444444444,
+        "f1-score": 0.9440559440559441,
+        "support": 36.0
+      }
+    },
+    "train_size": 144,
+    "test_size": 36
+  },
+  {
+    "experiment": "Hình học + HOG / KNN",
+    "feature": "combined",
+    "model": "KNN",
+    "accuracy": 0.6944444444444444,
+    "precision_macro": 0.7738095238095237,
+    "recall_macro": 0.6944444444444445,
+    "f1_macro": 0.6880382775119617,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        6,
+        6,
+        0
+      ],
+      [
+        3,
+        2,
+        7
+      ]
+    ],
+    "class_names": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "per_class": {
+      "circle": {
+        "precision": 0.5714285714285714,
+        "recall": 1.0,
+        "f1-score": 0.7272727272727273,
+        "support": 12.0
+      },
+      "square": {
+        "precision": 0.75,
+        "recall": 0.5,
+        "f1-score": 0.6,
+        "support": 12.0
+      },
+      "triangle": {
+        "precision": 1.0,
+        "recall": 0.5833333333333334,
+        "f1-score": 0.7368421052631579,
+        "support": 12.0
+      },
+      "accuracy": 0.6944444444444444,
+      "macro avg": {
+        "precision": 0.7738095238095237,
+        "recall": 0.6944444444444445,
+        "f1-score": 0.6880382775119617,
+        "support": 36.0
+      },
+      "weighted avg": {
+        "precision": 0.7738095238095238,
+        "recall": 0.6944444444444444,
+        "f1-score": 0.6880382775119617,
+        "support": 36.0
+      }
+    },
+    "train_size": 144,
+    "test_size": 36
+  },
+  {
+    "experiment": "Hình học + HOG / SVM",
+    "feature": "combined",
+    "model": "SVM",
+    "accuracy": 0.9444444444444444,
+    "precision_macro": 0.9523809523809524,
+    "recall_macro": 0.9444444444444445,
+    "f1_macro": 0.9440559440559441,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        2,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        12
+      ]
+    ],
+    "class_names": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "per_class": {
+      "circle": {
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1-score": 0.9230769230769231,
+        "support": 12.0
+      },
+      "square": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 12.0
+      },
+      "triangle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "accuracy": 0.9444444444444444,
+      "macro avg": {
+        "precision": 0.9523809523809524,
+        "recall": 0.9444444444444445,
+        "f1-score": 0.9440559440559441,
+        "support": 36.0
+      },
+      "weighted avg": {
+        "precision": 0.9523809523809523,
+        "recall": 0.9444444444444444,
+        "f1-score": 0.9440559440559441,
+        "support": 36.0
+      }
+    },
+    "train_size": 144,
+    "test_size": 36
+  },
+  {
+    "experiment": "Hình học + HOG / Random Forest",
+    "feature": "combined",
+    "model": "Random Forest",
+    "accuracy": 0.9166666666666666,
+    "precision_macro": 0.9333333333333332,
+    "recall_macro": 0.9166666666666666,
+    "f1_macro": 0.9153439153439153,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        3,
+        9,
+        0
+      ],
+      [
+        0,
+        0,
+        12
+      ]
+    ],
+    "class_names": [
+      "circle",
+      "square",
+      "triangle"
+    ],
+    "per_class": {
+      "circle": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 12.0
+      },
+      "square": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 12.0
+      },
+      "triangle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "accuracy": 0.9166666666666666,
+      "macro avg": {
+        "precision": 0.9333333333333332,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9153439153439153,
+        "support": 36.0
+      },
+      "weighted avg": {
+        "precision": 0.9333333333333333,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9153439153439152,
+        "support": 36.0
+      }
+    },
+    "train_size": 144,
+    "test_size": 36
+  }
+]

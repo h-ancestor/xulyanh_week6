@@ -1,0 +1,5 @@
+﻿experiment,feature,model,accuracy,precision_macro,recall_macro,f1_macro,train_size,test_size
+TN1,rgb_stats,KNN,1.0,1.0,1.0,1.0,120,30
+TN2,hsv_stats,KNN,1.0,1.0,1.0,1.0,120,30
+TN3,hsv_hist,SVM,1.0,1.0,1.0,1.0,120,30
+TN4,all,SVM,1.0,1.0,1.0,1.0,120,30
