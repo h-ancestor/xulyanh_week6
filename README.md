@@ -1,6 +1,6 @@
 # Thực hành tuần 6 — Xử lý ảnh và Thị giác Robot
 
-Đây là bộ mã nguồn, dữ liệu và kết quả để đẩy lên GitHub. Có thể mở `week6_ml.ipynb` để xem và chạy từng bước; `week6_solution.py` chạy lại pipeline và tái tạo các kết quả thí nghiệm. Đề PDF và báo cáo Word được giữ bên ngoài thư mục này theo yêu cầu.
+Đây là bộ mã nguồn, dữ liệu và kết quả để đẩy lên GitHub. Có thể mở `week6_ml.ipynb` để xem và chạy từng bước; `week6_solution.py` chạy lại pipeline và tái tạo các kết quả thí nghiệm. 
 
 ## Cấu trúc
 
@@ -18,22 +18,7 @@ week6_submission/
 └── CHECKLIST.md                # Đối chiếu từng yêu cầu đề
 ```
 
-## Chạy bài
 
-Từ terminal tại thư mục `week6_submission`:
-
-```bash
-python -m pip install -r requirements.txt
-python week6_solution.py
-```
-
-Hoặc mở notebook bằng Jupyter và chạy các cell từ đầu đến cuối:
-
-```bash
-jupyter notebook week6_ml.ipynb
-```
-
-Muốn tải lại ảnh trái cây, chạy `python download_dataset.py`. Script cần kết nối Internet để lấy ảnh từ GitHub.
 
 ## Nội dung thí nghiệm
 
